@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Comp Eng Lab II/Lab2/project_2/project_2.srcs/sources_1/new/ARM_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ARM_CPU
+WARNING: [VRFC 10-3380] identifier 'PCSrc_wire' is used before its declaration [H:/Comp Eng Lab II/Lab2/project_2/project_2.srcs/sources_1/new/ARM_CPU.v:24]
+WARNING: [VRFC 10-3380] identifier 'jump_PC_wire' is used before its declaration [H:/Comp Eng Lab II/Lab2/project_2/project_2.srcs/sources_1/new/ARM_CPU.v:25]
+INFO: [VRFC 10-311] analyzing module IFID
+INFO: [VRFC 10-311] analyzing module IDEX
+INFO: [VRFC 10-311] analyzing module EXMEM
+INFO: [VRFC 10-311] analyzing module MEMWB
+INFO: [VRFC 10-311] analyzing module Registers
+INFO: [VRFC 10-311] analyzing module IC
+WARNING: [VRFC 10-159] /* in comment [H:/Comp Eng Lab II/Lab2/project_2/project_2.srcs/sources_1/new/ARM_CPU.v:325]
+WARNING: [VRFC 10-159] /* in comment [H:/Comp Eng Lab II/Lab2/project_2/project_2.srcs/sources_1/new/ARM_CPU.v:327]
+INFO: [VRFC 10-311] analyzing module Data_Memory
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module ALU_Control
+INFO: [VRFC 10-311] analyzing module ALU_Mux
+INFO: [VRFC 10-311] analyzing module ID_Mux
+INFO: [VRFC 10-311] analyzing module WB_Mux
+INFO: [VRFC 10-311] analyzing module Shift_Left
+INFO: [VRFC 10-311] analyzing module SignExtend
+INFO: [VRFC 10-311] analyzing module Branch
+INFO: [VRFC 10-311] analyzing module ARM_Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Comp Eng Lab II/Lab2/project_2/project_2.srcs/sources_1/new/CPU_TEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU_TEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "H:/Comp Eng Lab II/Lab2/project_2/project_2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
