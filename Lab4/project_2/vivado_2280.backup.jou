@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May  3 15:38:11 2022
+# Process ID: 2280
+# Current directory: C:/Users/patelr124/Desktop/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13544 C:\Users\patelr124\Desktop\project_2\project_2.xpr
+# Log file: C:/Users/patelr124/Desktop/project_2/vivado.log
+# Journal file: C:/Users/patelr124/Desktop/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/patelr124/Desktop/project_2/project_2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/patelr124/Desktop/project_2/project_2.srcs/sim_1/imports/Verilog_Cache_Implementation/testbench_behav.wcfg
+source testbench.tcl
+run 50 ms
+relaunch_sim
+run 1.2 ms
+close_sim

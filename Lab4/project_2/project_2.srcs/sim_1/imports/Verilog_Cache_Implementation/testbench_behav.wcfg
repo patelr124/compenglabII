@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="17914590000fs"></ZoomStartTime>
+      <ZoomEndTime time="18041590001fs"></ZoomEndTime>
+      <Cursor1Time time="17985390000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="142"></NameColumnWidth>
+      <ValueColumnWidth column_width="87"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_CacheControl/references_count" type="array">
+      <obj_property name="ElementShortName">references_count[63:0]</obj_property>
+      <obj_property name="ObjectShortName">references_count[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_CacheControl/hits" type="array">
+      <obj_property name="ElementShortName">hits[63:0]</obj_property>
+      <obj_property name="ObjectShortName">hits[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_CacheControl/misses" type="array">
+      <obj_property name="ElementShortName">misses[63:0]</obj_property>
+      <obj_property name="ObjectShortName">misses[63:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/index" type="logic">
+      <obj_property name="ElementShortName">index</obj_property>
+      <obj_property name="ObjectShortName">index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/hit" type="logic">
+      <obj_property name="ElementShortName">hit</obj_property>
+      <obj_property name="ObjectShortName">hit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/reference" type="array">
+      <obj_property name="ElementShortName">reference[23:0]</obj_property>
+      <obj_property name="ObjectShortName">reference[23:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/tag" type="array">
+      <obj_property name="ElementShortName">tag[19:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/u_Cache/tag_b0[0]" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">[0][19:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="label">tag_b0 [0][19:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1651604154,verilog,,,,glbl,,,,,,,,
+C:/Users/patelr124/Desktop/project_2/project_2.srcs/sim_1/new/testbench.v,1651606152,systemVerilog,,,,testbench,,,,,,,,
+C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Cache.v,1651607293,verilog,,C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/CacheControl.v,,Cache,,,,,,,,
+C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/CacheControl.v,1651606162,verilog,,C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v,,CacheControl,,,,,,,,
+C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v,1651607340,verilog,,,,memory,,,,,,,,
