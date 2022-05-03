@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue May  3 15:43:53 2022
+# Process ID: 15648
+# Current directory: C:/Users/patelr124/Desktop/project_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15176 C:\Users\patelr124\Desktop\project_2\project_2.xpr
+# Log file: C:/Users/patelr124/Desktop/project_2/vivado.log
+# Journal file: C:/Users/patelr124/Desktop/project_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+ERROR: [Common 17-190] Invalid Tcl eval of 'exit' during processing of event '48'.
+ERROR: [Common 17-39] 'rdi::open_ppr_or_dcp' failed due to earlier errors.
+ERROR: [Common 17-190] Invalid Tcl eval of 'open_project C:/Users/patelr124/Desktop/project_2/project_2.xpr' during processing of event '319'.
+open_project C:/Users/patelr124/Desktop/project_2/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 698.098 ; gain = 45.043
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/TRACE1.DAT'
+INFO: [SIM-utils-43] Exported 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/TRACE2.DAT'
+INFO: [SIM-utils-43] Exported 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/TRACE1.DAT'
+INFO: [SIM-utils-43] Exported 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/TRACE2.DAT'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/CacheControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CacheControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+ERROR: [VRFC 10-4982] syntax error near 'input' [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:12]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword input used in incorrect context [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:12]
+ERROR: [VRFC 10-4982] syntax error near 'input' [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:22]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword input used in incorrect context [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:22]
+ERROR: [VRFC 10-4982] syntax error near 'input' [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:23]
+ERROR: [VRFC 10-2790] Verilog 2000 keyword input used in incorrect context [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:23]
+WARNING: [VRFC 10-2096] empty statement in sequential block [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:21]
+ERROR: [VRFC 10-2865] module 'memory' ignored due to previous errors [C:/Users/patelr124/Desktop/project_2/project_2.srcs/sources_1/new/Memory.v:3]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/patelr124/Desktop/project_2/project_2.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  3 15:45:31 2022...
